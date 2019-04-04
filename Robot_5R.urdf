@@ -1,7 +1,81 @@
 <robot name="robot_5R">
-<link name="<name of the link>">
+  
+<link name="<base1">
 <inertial>...........</inertial>
   <visual> ............</visual>
   <collision>..........</collision>
 </link>
+
+<joint name="joint1" type="revolute"> 
+  <parent link=""/> 
+  <child link=""/> 
+  <origin xyz="0 0 0.1"/> 
+  <axis xyz="0 0 1" /> 
+</joint>
+  
+<link name="link1">
+<inertial>...........</inertial>
+  <visual> ............</visual>
+  <collision>..........</collision>
+</link>
+ 
+
+<joint name="joint2" type="revolute"> 
+  <parent link=""/> 
+  <child link=""/> 
+  <origin xyz="0 0 0.1"/> 
+  <axis xyz="0 0 1" /> 
+</joint> 
+  
+<link name="link2">
+<inertial>...........</inertial>
+  <visual> ............</visual>
+  <collision>..........</collision>
+</link>  
+  
+ 
+<joint name="joint3" type="revolute"> 
+  <parent link=""/> 
+  <child link=""/> 
+  <origin xyz="0 0 0.1"/> 
+  <axis xyz="0 0 1" /> 
+</joint>
+  
+<link name="link3">
+<inertial>...........</inertial>
+  <visual> ............</visual>
+  <collision>..........</collision>
+</link>
+  
+
+<joint name="joint4" type="revolute"> 
+  <parent link=""/> 
+  <child link=""/> 
+  <origin xyz="0 0 0.1"/> 
+  <axis xyz="0 0 1" /> 
+</joint>  
+  
+  
+<link name="link4">
+<inertial>...........</inertial>
+  <visual> ............</visual>
+  <collision>..........</collision>
+</link>  
+  
+  
+
+<joint name="joint5" type="revolute"> 
+  <parent link=""/> 
+  <child link=""/> 
+  <origin xyz="0 0 0.1"/> 
+  <axis xyz="0 0 1" /> 
+</joint>  
+  
+  
+<link name="base2">
+<inertial>...........</inertial>
+  <visual> ............</visual>
+  <collision>..........</collision>
+</link>
+  
 </robot>
